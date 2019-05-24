@@ -21,6 +21,26 @@ public class Student {
     public String getName() {
         return name;
     }
+    private String address;
+
+    /**
+     * Get the value of address
+     *
+     * @return the value of address
+     */
+    public String getAddress() {
+        return address;
+    }
+
+    /**
+     * Set the value of address
+     *
+     * @param address new value of address
+     */
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
 
     /**
      * Set the value of name
